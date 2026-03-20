@@ -45,3 +45,17 @@ Premium depends on location risk and past data.
 - Mobile app
 - Live APIs
 - Advanced AI
+## Adversarial Defense & Anti-Spoofing Strategy
+To prevent fraud and misuse, the system includes basic protection mechanisms.
+- Identity Verification  
+  Each user is verified to avoid duplicate accounts.
+- Location Validation  
+  User location is checked to ensure they are working in the correct area and not using fake GPS.
+- Behavior Monitoring  
+  The system tracks unusual activity such as frequent claims or unrealistic working patterns.
+- Duplicate Claim Prevention  
+  Prevents users from claiming multiple times for the same event.
+- Anomaly Detection  
+  Suspicious patterns (like many claims from the same area) are flagged.
+- Risk-Based Control  
+  High-risk users may require additional verification before payout.
