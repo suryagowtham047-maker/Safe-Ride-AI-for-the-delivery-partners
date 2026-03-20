@@ -1,4 +1,5 @@
-
+# SafeRide AI for Delivery Partners
+AI-powered parametric insurance platform that protects delivery workers from income loss due to external disruptions like weather and pollution.
 ## Team & Responsibilities
 - Gowtham – Backend & System Design
 - Chandu – API Integration
@@ -59,3 +60,10 @@ To prevent fraud and misuse, the system includes basic protection mechanisms.
   Suspicious patterns (like many claims from the same area) are flagged.
 - Risk-Based Control  
   High-risk users may require additional verification before payout.
+## Market Crash Handling
+The system is designed to handle large-scale disruptions affecting many users:
+- Predicts claim surge using AI
+- Applies dynamic payout limits
+- Prioritizes verified users
+- Adjusts future premiums based on risk
+This ensures financial stability while still supporting genuine users.
