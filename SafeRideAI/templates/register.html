@@ -1,13 +1,15 @@
 <form method="POST">
-<h2>Register</h2>
+<h2>Register (Step 1)</h2>
 
-<input type="text" name="name" placeholder="Enter Name"><br><br>
+<input type="email" name="email" placeholder="Enter Email" required><br><br>
+<input type="text" name="name" placeholder="Enter Name" required><br><br>
 
-<select name="location">
-<option value="low">Low Risk</option>
-<option value="medium">Medium Risk</option>
-<option value="high">High Risk</option>
+<select name="policy" required>
+<option value="" disabled selected>Select Policy</option>
+<option value="basic">Basic Policy</option>
+<option value="standard">Standard Policy</option>
+<option value="pro">Pro Policy</option>
 </select><br><br>
 
-<button type="submit">Submit</button>
+<button type="submit">Next Step</button>
 </form>
